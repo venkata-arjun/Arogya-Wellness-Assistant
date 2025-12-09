@@ -2,7 +2,19 @@
 
 A modern React-based frontend application for the Arogya Wellness Assistant, an AI-powered multi-agent wellness chatbot that provides personalized health guidance across diet, lifestyle, fitness, and symptom analysis.
 
-## 🎯 Features
+## Screenshots
+
+<div align="center">
+  <img src="arogya-home-screen.png" alt="Home Screen" width="45%"/>
+  <img src="arogya-chat-light.png" alt="Chat Interface - Light Mode" width="45%"/>
+</div>
+
+<div align="center">
+  <img src="arogya-chat-dark.png" alt="Chat Interface - Dark Mode" width="45%"/>
+  <img src="arogya-chat-response.png" alt="AI Response View" width="45%"/>
+</div>
+
+## Features
 
 - **Interactive Chat Interface**: Real-time conversation with the wellness assistant
 - **Smart Symptom Analysis**: AI-powered classification and analysis of health symptoms
@@ -18,7 +30,7 @@ A modern React-based frontend application for the Arogya Wellness Assistant, an 
 - **Home Screen**: Welcome screen with app introduction
 - **User Sessions**: Per-browser user tracking for maintaining context
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -56,7 +68,7 @@ The production build is generated in the `dist/` folder.
 npm run preview
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 wellness_frontend/
@@ -77,7 +89,7 @@ wellness_frontend/
 └── README.md
 ```
 
-## 🔧 Key Technologies
+## Key Technologies
 
 - **React 19.2**: Modern UI library
 - **Vite 7.2**: Fast build tool and dev server
@@ -85,7 +97,7 @@ wellness_frontend/
 - **Lucide React**: Beautiful icon library
   - Send, Bot, Loader2, Copy, Check, Sun, Moon, ArrowRightCircle icons
 
-## 📡 API Integration
+## API Integration
 
 The frontend communicates with the backend via REST API:
 
@@ -117,7 +129,7 @@ Each wellness response includes:
 }
 ```
 
-## 🎨 UI Components
+## UI Components
 
 ### Home Screen
 
@@ -142,14 +154,14 @@ Each wellness response includes:
 - Adapted colors for all components
 - Light and dark logos for branding
 
-## 💾 Local Storage
+## Local Storage
 
 The app uses browser's LocalStorage to persist:
 
 - **wellness_user_id**: Unique user identifier per browser
 - **wellness_chat_history**: Full conversation history
 
-## 🔄 Message Flow
+## Message Flow
 
 1. User types a wellness-related question
 2. Frontend sends message to backend API
@@ -164,7 +176,7 @@ The app uses browser's LocalStorage to persist:
    - Bulleted advice items
    - Comprehensive conclusion
 
-## ✨ User Experience Features
+## User Experience Features
 
 ### Formatting
 
@@ -185,7 +197,7 @@ The app uses browser's LocalStorage to persist:
 - Graceful fallback for failed requests
 - Retry capability by sending new message
 
-## 🛠️ Development Commands
+## Development Commands
 
 ```bash
 # Start dev server
@@ -201,7 +213,7 @@ npm run lint
 npm run preview
 ```
 
-## 🌐 Environment Configuration
+## Environment Configuration
 
 Update the API base URL in `src/api/client.js` if the backend runs on a different host/port:
 
@@ -209,7 +221,7 @@ Update the API base URL in `src/api/client.js` if the backend runs on a differen
 const API_BASE_URL = "http://localhost:8000";
 ```
 
-## 📱 Responsive Breakpoints
+## Responsive Breakpoints
 
 The application is optimized for:
 
@@ -224,14 +236,14 @@ Responsive adjustments:
 - Touch-friendly button sizes
 - Optimized chat bubble widths
 
-## 🔐 Security Notes
+## Security Notes
 
 - User IDs are generated randomly and stored locally
 - No sensitive data stored in LocalStorage
 - CORS configured to accept requests from frontend origin
 - All API calls use POST/GET over HTTP (upgrade to HTTPS in production)
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### "Unable to connect to API"
 
@@ -250,18 +262,3 @@ Responsive adjustments:
 - Verify Tailwind CSS is properly configured
 - Check browser DevTools for CSS class application
 - Clear browser cache
-
-## 📚 Learn More
-
-- [React Documentation](https://react.dev)
-- [Vite Documentation](https://vite.dev)
-- [Tailwind CSS Documentation](https://tailwindcss.com)
-- [Lucide React Icons](https://lucide.dev)
-
-## 📄 License
-
-Part of the Arogya Wellness Assistant project.
-
-## 🤝 Support
-
-For issues, questions, or contributions, please refer to the main project documentation.
