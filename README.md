@@ -1,12 +1,12 @@
 # Arogya Wellness Assistant
 
 <div align="center">
-  <img src="arogya.png" alt="Arogya Logo" width="700"/>
+  <img src="arogya-logo.png" alt="Arogya Logo" width="560"/>
 </div>
 
 ## About
 
-Arogya Wellness Assistant is an AI-powered health consultation platform that provides personalized wellness guidance through intelligent conversation. Using advanced multi-agent architecture, it delivers comprehensive advice across diet, fitness, lifestyle, and symptom analysis.
+Arogya Wellness Assistant is an AI-powered health consultation platform that provides personalized wellness guidance through intelligent conversation. Built with **LangChain's multi-agent framework**, it orchestrates specialized agents to deliver comprehensive advice across diet, fitness, lifestyle, and symptom analysis.
 
 ## Key Features
 
@@ -39,5 +39,3 @@ Arogya Wellness Assistant is an AI-powered health consultation platform that pro
 3. Receive personalized, actionable advice
 4. Continue the conversation with context-aware follow-ups
 5. Access your chat history anytime
-
----
