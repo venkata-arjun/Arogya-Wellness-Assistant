@@ -1,7 +1,7 @@
 # Arogya Wellness Assistant
 
 <div align="center">
-  <img src="arogya-logo.png" alt="Arogya Logo" width="200"/>
+  <img src="arogya.png" alt="Arogya Logo" width="700"/>
 </div>
 
 ## About
