@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv/
+venv/
+ENV/
+
+# Environment & secrets
+*.env
+.env.*
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# VS Code
+.vscode/
+
+# macOS / Windows cruft
+.DS_Store
+Thumbs.db
+
+# Local data / caches
+*.log
+*.sqlite3
+
+# LangChain cache (if any)
+.llm_cache/
