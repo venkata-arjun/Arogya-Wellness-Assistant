@@ -93,8 +93,7 @@ arogya-wellness-assistant/
 │   │   ├── user_profiles.json         # User health profiles
 │   │   ├── history.json               # Conversation history
 │   │   └── knowledge.json             # Knowledge base for RAG
-│   ├── BACKEND_README.md              # Detailed backend documentation
-│   └── requirements.txt               # Python dependencies
+│   └── BACKEND_README.md              # Detailed backend documentation
 │
 ├── frontend/                          # React + Vite Frontend
 │   ├── src/                           # Source code
@@ -120,10 +119,9 @@ arogya-wellness-assistant/
 │   ├── vite.config.js                 # Vite build configuration
 │   ├── tailwind.config.js             # Tailwind CSS configuration
 │   ├── eslint.config.js               # ESLint rules
-│   ├── FRONTEND_README.md             # Detailed frontend documentation
-│   └── README.md                      # Frontend setup guide
+│   └── FRONTEND_README.md             # Detailed frontend documentation
 │
-├── webpage-preview/                   # Application screenshots and UI previews
+├── website-preview/                   # Application screenshots and UI previews
 │
 ├── README.md                          # Project root documentation
 ├── LICENSE.txt                        # License information
@@ -170,8 +168,8 @@ This section is for anyone cloning the repository for the first time.
 ### Step 1: Clone the Repository
 
 ```bash
-git clone <your-repository-url>
-cd Wellness_project
+git clone https://github.com/venkata-arjun/arogya-wellness-assistant.git
+cd arogya-wellness-assistant
 ```
 
 Ensure you are inside the project root directory.
@@ -196,10 +194,10 @@ source venv/bin/activate     # macOS / Linux
 3. Install backend dependencies:
 
 ```bash
-pip install -r healthbackend/requirements.txt
+pip install -r requirements.txt
 ```
 
-4. Create a `.env` file inside the `healthbackend/` directory and add:
+4. Create a `.env` file inside the `backend/` directory and add:
 
 ```
 GROQ_API_KEY=your_groq_api_key
@@ -210,7 +208,7 @@ YOUTUBE_API_KEY=your_youtube_api_key
 5. Start the backend server:
 
 ```bash
-python -m healthbackend.app
+python -m backend.app
 ```
 
 If successful, the backend will run at:
@@ -229,7 +227,7 @@ Keep this terminal running.
 2. Navigate to the frontend directory:
 
 ```bash
-cd wellness-frontend
+cd frontend
 ```
 
 3. Install frontend dependencies:
@@ -327,7 +325,7 @@ Ensure API keys are:
 
 ### Backend Issues
 
-**ModuleNotFoundError: No module named `healthbackend`**
+**ModuleNotFoundError: No module named `backend`**
 
 - Run commands from the project root
 - Confirm dependencies are installed
