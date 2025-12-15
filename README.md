@@ -123,6 +123,8 @@ arogya-wellness-assistant/
 │   ├── FRONTEND_README.md             # Detailed frontend documentation
 │   └── README.md                      # Frontend setup guide
 │
+├── webpage-preview/                   # Application screenshots and UI previews
+│
 ├── README.md                          # Project root documentation
 ├── LICENSE.txt                        # License information
 ├── requirements.txt                   # Root Python dependencies
